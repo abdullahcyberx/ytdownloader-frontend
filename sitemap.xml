@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Main Application Routes -->
+    <url>
+        <loc>https://shehzadayt.pages.dev/</loc>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    
+    <!-- Legal / Info -->
+    <url>
+        <loc>https://shehzadayt.pages.dev/about.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://shehzadayt.pages.dev/contact.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <!-- Blog Content Cluster -->
+    <url>
+        <loc>https://shehzadayt.pages.dev/blog/download-tiktok-without-watermark-2026.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <lastmod>2026-03-01</lastmod>
+    </url>
+
+    <url>
+        <loc>https://shehzadayt.pages.dev/blog/download-youtube-shorts-in-hd.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <lastmod>2026-03-01</lastmod>
+    </url>
+</urlset>
+
+

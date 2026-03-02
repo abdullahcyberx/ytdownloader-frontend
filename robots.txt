@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# Sitemap reference
+Sitemap: https://shehzadayt.pages.dev/sitemap.xml
+
