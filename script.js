@@ -164,12 +164,14 @@ function renderVideoInfo(data) {
     videoThumb.alt = `${data.title} - Video Thumbnail`;
     videoDuration.textContent = formatTime(data.duration);
 
-    // Simplify formats - Only offer MP4 per user request
+    // Dynamically populate available formats and qualities
     formatSelect.innerHTML = '';
-    const option = document.createElement('option');
-    option.value = JSON.stringify({ formatId: 'video', ext: 'mp4' });
-    option.textContent = `MP4 Video - Best Quality`;
-    formatSelect.appendChild(option);
+    data.formats.forEach(f => {
+        const option = document.createElement('option');
+        option.value = JSON.stringify({ formatId: f.formatId, ext: 'mp4' });
+        option.textContent = f.label;
+        formatSelect.appendChild(option);
+    });
 
     // Show result card smoothly
     resultCard.classList.remove('hidden');
