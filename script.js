@@ -133,6 +133,13 @@ form.addEventListener('submit', async (e) => {
     resultCard.classList.remove('visible');
     progressSection.classList.add('hidden');
     finalDownloadLink.classList.add('hidden');
+    startDownloadBtn.classList.remove('hidden');
+    startDownloadBtn.disabled = false;
+    if (startDownloadBtn.querySelector('span')) {
+        startDownloadBtn.querySelector('span').textContent = 'Download';
+    } else {
+        startDownloadBtn.textContent = 'Download';
+    }
     setTimeout(() => resultCard.classList.add('hidden'), 300);
 
     setLoadingState(true, fetchBtn, btnText, 'Get Video');
