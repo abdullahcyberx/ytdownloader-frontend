@@ -1,4 +1,4 @@
-# robots.txt for yt.shehzada.tech
+# robots.txt for tiktok.shehzada.tech
 # General rules for crawlers
 
 # Allow all major search engines to index
@@ -32,4 +32,4 @@ User-agent: meta-externalagent
 Disallow: /
 
 # Sitemap reference
-Sitemap: https://yt.shehzada.tech/sitemap.xml
+Sitemap: https://tiktok.shehzada.tech/sitemap.xml

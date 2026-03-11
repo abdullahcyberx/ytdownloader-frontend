@@ -3,7 +3,7 @@
 
   <!-- Main site -->
   <url>
-    <loc>https://yt.shehzada.tech/</loc>
+    <loc>https://tiktok.shehzada.tech/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <lastmod>2026-03-11</lastmod>
@@ -11,14 +11,14 @@
 
   <!-- About / Contact -->
   <url>
-    <loc>https://yt.shehzada.tech/about.html</loc>
+    <loc>https://tiktok.shehzada.tech/about.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <lastmod>2026-03-05</lastmod>
   </url>
 
   <url>
-    <loc>https://yt.shehzada.tech/contact.html</loc>
+    <loc>https://tiktok.shehzada.tech/contact.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <lastmod>2026-03-05</lastmod>
@@ -26,14 +26,7 @@
 
   <!-- Blog posts -->
   <url>
-    <loc>https://yt.shehzada.tech/blog/download-tiktok-without-watermark-2026.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <lastmod>2026-03-01</lastmod>
-  </url>
-
-  <url>
-    <loc>https://yt.shehzada.tech/blog/download-youtube-shorts-in-hd.html</loc>
+    <loc>https://tiktok.shehzada.tech/blog/download-tiktok-without-watermark-2026.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <lastmod>2026-03-01</lastmod>
@@ -41,14 +34,7 @@
 
   <!-- Downloader pages -->
   <url>
-    <loc>https://yt.shehzada.tech/download/youtube-video.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <lastmod>2026-03-11</lastmod>
-  </url>
-
-  <url>
-    <loc>https://yt.shehzada.tech/download/tiktok-video.html</loc>
+    <loc>https://tiktok.shehzada.tech/download/tiktok-video.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <lastmod>2026-03-11</lastmod>

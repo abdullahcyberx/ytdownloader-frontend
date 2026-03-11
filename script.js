@@ -1,9 +1,7 @@
 // API Config
-const API_BASE_URL = 'https://video-downloader-production-f0a1.up.railway.app';
+const API_BASE_URL = 'http://localhost:3000';
 
 // DOM Elements
-const ytToggle = document.getElementById('ytToggle');
-const ttToggle = document.getElementById('ttToggle');
 const form = document.getElementById('downloadForm');
 const urlInput = document.getElementById('videoUrl');
 const fetchBtn = document.getElementById('fetchBtn');
@@ -79,21 +77,6 @@ if (pasteBtn) {
         }
     });
 }
-ytToggle.addEventListener('click', () => {
-    ytToggle.classList.add('active');
-    ttToggle.classList.remove('active');
-    urlInput.placeholder = 'https://www.youtube.com/watch?v=...';
-    urlInput.value = '';
-    urlInput.focus();
-});
-
-ttToggle.addEventListener('click', () => {
-    ttToggle.classList.add('active');
-    ytToggle.classList.remove('active');
-    urlInput.placeholder = 'https://www.tiktok.com/@user/video/...';
-    urlInput.value = '';
-    urlInput.focus();
-});
 
 let vignetteLoaded = false;
 function loadVignette() {
@@ -121,12 +104,9 @@ form.addEventListener('submit', async (e) => {
     const url = urlInput.value.trim();
     if (!url) return showToast('Please enter a valid URL', 'error');
 
-    // Quick frontend validation based on selected tab
-    const isTiktok = ttToggle.classList.contains('active');
-    if (isTiktok && !url.includes('tiktok.')) {
+    // Quick frontend validation for TikTok
+    if (!url.includes('tiktok.')) {
         return showToast('Please enter a valid TikTok URL', 'error');
-    } else if (!isTiktok && url.includes('tiktok.')) {
-        return showToast('Please select the TikTok tab for TikTok links', 'error');
     }
 
     // Reset UI

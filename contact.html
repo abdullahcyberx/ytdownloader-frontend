@@ -6,21 +6,21 @@
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <meta name="mobile-web-app-capable" content="yes">
-    <title>Contact Us - Shehzada Video Downloader</title>
+    <title>Contact Us - TikTok Video Downloader</title>
     <meta name="description"
-        content="Get in touch with the Shehzada Video Downloader team for support, business inquiries, or technical questions regarding YouTube and TikTok downloads.">
-    <link rel="canonical" href="https://yt.shehzada.tech/contact.html" />
+        content="Get in touch with the Shehzada Video Downloader team for support, business inquiries, or technical questions regarding TikTok downloads.">
+    <link rel="canonical" href="https://tiktok.shehzada.tech/contact.html" />
 
     <!-- Open Graph -->
-    <meta property="og:title" content="Contact Us - Shehzada Video Downloader" />
+    <meta property="og:title" content="Contact Us - TikTok Video Downloader" />
     <meta property="og:description"
         content="Get in touch with the Shehzada Video Downloader team for support, business inquiries, or technical questions." />
-    <meta property="og:url" content="https://yt.shehzada.tech/contact.html" />
+    <meta property="og:url" content="https://tiktok.shehzada.tech/contact.html" />
     <meta property="og:type" content="website" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Contact Us - Shehzada Video Downloader" />
+    <meta name="twitter:title" content="Contact Us - TikTok Video Downloader" />
     <meta name="twitter:description"
         content="Get in touch with the Shehzada Video Downloader team for support, business inquiries, or technical questions." />
 
@@ -53,11 +53,12 @@
         }
 
         .contact-card {
-            background: rgba(255, 255, 255, 0.03);
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            background: linear-gradient(180deg, rgba(24, 24, 27, 0.4) 0%, rgba(9, 9, 11, 0.4) 100%);
+            border: 1px solid var(--border-subtle);
             border-radius: 20px;
             padding: 3rem 2rem;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
         }
 
         .contact-heading {
@@ -120,27 +121,28 @@
 </head>
 
 <body>
-    <div class="background-gradients">
-        <div class="gradient-blob form-blob"></div>
-        <div class="gradient-blob result-blob"></div>
+    <!-- 1. Beautiful Animated Background & Spotlight -->
+    <div class="background-fx">
+        <!-- Optional: Large animated brand name in background -->
+        <div class="bg-brand-text">TIKTOK</div>
     </div>
-
+    
     <!-- Navigation -->
-    <nav class="top-nav container fade-in-up" style="padding-top: 1.5rem; padding-bottom: 1.5rem;">
+    <nav class="top-nav container fade-in-up" style="padding-top: 1.5rem; padding-bottom: 1.5rem; display: flex; justify-content: space-between; align-items: center; width: 100%; max-width: 800px; margin: 0 auto; z-index: 10;">
         <a href="index.html" class="nav-logo"
             style="text-decoration: none; color: white; font-weight: 800; font-size: 1.5rem; letter-spacing: -0.5px;">Shehzada</a>
-        <div class="nav-links">
-            <a href="index.html" class="nav-link">Tools</a>
-            <a href="blog/index.html" class="nav-link">Blog</a>
-            <a href="about.html" class="nav-link">About</a>
-            <a href="contact.html" class="nav-link" style="color: var(--primary);">Contact</a>
+        <div class="nav-links" style="display: flex; gap: 1.5rem;">
+            <a href="index.html" class="nav-link" style="color: var(--text-secondary); text-decoration: none; transition: color 0.3s;">Tools</a>
+            <a href="blog/index.html" class="nav-link" style="color: var(--text-secondary); text-decoration: none; transition: color 0.3s;">Blog</a>
+            <a href="about.html" class="nav-link" style="color: var(--text-secondary); text-decoration: none; transition: color 0.3s;">About</a>
+            <a href="contact.html" class="nav-link" style="color: var(--primary); text-decoration: none; transition: color 0.3s;">Contact</a>
         </div>
     </nav>
 
     <main class="container" style="padding-top: 2rem;">
         <div class="contact-container">
             <div class="contact-card">
-                <h1 class="contact-heading">Get in <span class="text-gradient">Touch</span></h1>
+                <h1 class="contact-heading" style="background: linear-gradient(180deg, #FFFFFF 0%, #A1A1AA 100%); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">Get in Touch</h1>
 
                 <div class="contact-info">
                     <div class="contact-item">
@@ -162,15 +164,15 @@
                     </div>
                 </div>
 
-                <a href="index.html" class="back-link">â† Back to Home</a>
+                <a href="index.html" class="back-link">&larr; Back to Home</a>
             </div>
         </div>
     </main>
 
-    <footer class="main-footer" style="text-align: center;">
-        <p style="margin: 0; font-size: 1.1rem; color: var(--text-muted);">
+    <footer class="main-footer" style="text-align: center; padding: 2rem 0; width: 100%; z-index: 10;">
+        <p style="margin: 0; font-size: 1rem; color: var(--text-secondary);">
             Made with <span style="color: #e25555;">&hearts;</span> by <span class="highlight"
-                style="font-weight: 600;">Shehzada</span>
+                style="font-weight: 600; color: var(--text-primary);">Shehzada</span>
         </p>
     </footer>
 
