@@ -71,7 +71,7 @@
     }
     </script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=2">
 
 </head>
 
@@ -83,7 +83,7 @@
     </div>
     
     <!-- Navigation -->
-    <nav class="top-nav container fade-in-up" style="padding-top: 1.5rem; padding-bottom: 1.5rem; display: flex; justify-content: space-between; align-items: center; width: 100%; max-width: 800px; margin: 0 auto; z-index: 10;">
+    <nav class="top-nav fade-in-up" style="padding: 1.5rem; display: flex; flex-direction: row; justify-content: space-between; align-items: center; width: 100%; max-width: 800px; margin: 0 auto; z-index: 10; box-sizing: border-box;">
         <a href="index.html" class="nav-logo"
             style="text-decoration: none; color: white; font-weight: 800; font-size: 1.5rem; letter-spacing: -0.5px;">Shehzada</a>
         <div class="nav-links" style="display: flex; gap: 1.5rem;">
@@ -107,9 +107,9 @@
         <section class="pro-card">
             
             <form id="downloadForm" style="display: flex; flex-direction: column;">
-                <div style="display: flex; position: relative;">
-                    <input type="url" id="videoUrl" placeholder="https://www.tiktok.com/@user/video/..." required autocomplete="off" style="padding-right: 80px;">
-                    <button type="button" id="pasteBtn" class="paste-btn" title="Paste from clipboard" style="display: flex; align-items: center; justify-content: center; gap: 4px; position: absolute; right: 8px; top: 12px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.1); color: white; font-size: 12px; padding: 4px 8px; border-radius: 6px; cursor: pointer; height: auto;">
+                <div style="display: flex; position: relative; margin-bottom: 1.5rem; width: 100%;">
+                    <input type="url" id="videoUrl" placeholder="https://www.tiktok.com/@user/video/..." required autocomplete="off" style="padding-right: 90px; margin-bottom: 0; width: 100%;">
+                    <button type="button" id="pasteBtn" class="paste-btn" title="Paste from clipboard" style="display: flex; align-items: center; justify-content: center; gap: 4px; position: absolute; right: 8px; top: 50%; transform: translateY(-50%); background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.2); color: white; font-size: 13px; font-weight: 500; padding: 6px 12px; border-radius: 8px; cursor: pointer; height: max-content; transition: background 0.2s;">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 14px; height: 14px;">
                             <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
                             <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
